@@ -16,7 +16,6 @@ router.post("/", async (req, res) => {
   }
 });
 
-// READ – שליפת כל ההודעות
 router.get("/", async (req, res) => {
   try {
     const tests = await Test.find();
